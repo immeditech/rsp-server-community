@@ -1,6 +1,7 @@
 {
 	"serverTypes": {
 		"org.jboss.ide.eclipse.as.server.glassfish.5x": {
+			"template": "glassfish.template",
 			"discoveries": {
 				"glassfish.5.x": {
 					"discoveryType": "jarManifest",
@@ -23,10 +24,38 @@
 					"installationMethod": "archive",
 					"size": "117592534"
 				}
+			}
+		},
+		"org.jboss.ide.eclipse.as.server.glassfish.7x": {
+			"template": "glassfish.template",
+			"discoveries": {
+				"glassfish.7.x": {
+					"discoveryType": "jarManifest",
+					"name": "Glassfish 7.x",
+					"nameFile": "glassfish/modules/glassfish.jar",
+					"nameKey": "Bundle-SymbolicName",
+					"nameRequiredPrefix": "org.glassfish.main.core.glassfish",
+					"versionFile": "glassfish/modules/glassfish.jar",
+					"versionKey": "Bundle-Version",
+					"versionRequiredPrefix": "7."
+				}
 			},
+			"downloads": {
+				"downloadProviderId": "glassfish7.x",
+				"glassfish-7.0.2": {
+					"name": "Glassfish 7.0.2",
+					"fullVersion": "7.0.2",
+					"downloadUrl": "https://download.eclipse.org/ee4j/glassfish/glassfish-7.0.2.zip",
+					"licenseUrl": "https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt",
+					"installationMethod": "archive",
+					"size": "119530190"
+				}
+			}
+		}
+	},
+	"templates": {
+		"glassfish.template": {
 			"type": {
-				"name": "Glassfish 5.x",
-				"description": "A server adapter capable of discovering and controlling a Glassfish 5.x runtime instance.",
 				"launchModes": "run,debug",
 				"attributes": {
 					"required": {

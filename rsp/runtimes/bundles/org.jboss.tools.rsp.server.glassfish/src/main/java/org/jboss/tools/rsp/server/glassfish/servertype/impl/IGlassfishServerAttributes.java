@@ -11,6 +11,7 @@ package org.jboss.tools.rsp.server.glassfish.servertype.impl;
 import org.jboss.tools.rsp.api.DefaultServerAttributes;
 
 public interface IGlassfishServerAttributes extends DefaultServerAttributes {
+	public static final String GLASSFISH_SERVER_TYPE_PREFIX = "org.jboss.ide.eclipse.as.server.glassfish.";
 	public static final String GLASSFISH_5X_SERVER_TYPE_ID = "org.jboss.ide.eclipse.as.server.glassfish.5x";
 	
 
