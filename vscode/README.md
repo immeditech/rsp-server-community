@@ -26,10 +26,11 @@ This extension depends on VSCode RSP UI Extension which is going to be installed
    This extension provides no additional settings other than those available in [rsp-ui](https://github.com/redhat-developer/vscode-rsp-ui#extension-settings)
 
 ### Supported Servers
-   * Apache Tomcat [ 5.5 | 6.0 | 7.0 | 8.0 | 8.5 | 9.0 ]
-   * Apache Karaf [ 4.8 ] 
-   * Apache Felix [ 3.2 | 4.6 | 5.6 | 6.0 ]
-   * Jetty [ 9.x ]
+   * Apache Tomcat [ 5.5 | 6.0 | 7.0 | 8.0 | 8.5 | 9.0 | 10.x ]
+   * Apache Karaf [ 4.2 | 4.3 ] 
+   * Apache Felix [ 3.2 | 4.6 | 5.6 | 6.0 | 7.0 ]
+   * Jetty [ 9.x | 10.x | 11.x ]
    * Glassfish [ 5.x | 6.x | 7.x ]
+   * Payara [ 5.x ]
    * Websphere Liberty [ 21.x ]
 
