@@ -23,6 +23,40 @@
 					"licenseUrl": "https://oss.oracle.com/licenses/CDDL+GPL-1.1",
 					"installationMethod": "archive",
 					"size": "117592534"
+				},
+				"glassfish-5.1.0": {
+					"name": "Glassfish 5.1.0",
+					"fullVersion": "5.1.0",
+					"downloadUrl": "https://mirror.dogado.de/eclipse/glassfish/glassfish-5.1.0.zip",
+					"licenseUrl": "https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt",
+					"installationMethod": "archive",
+					"size": "117379392"
+				}
+			}
+		},
+		"org.jboss.ide.eclipse.as.server.glassfish.6x": {
+			"template": "glassfish.template",
+			"discoveries": {
+				"glassfish.6.x": {
+					"discoveryType": "jarManifest",
+					"name": "Glassfish 6.x",
+					"nameFile": "glassfish/modules/glassfish.jar",
+					"nameKey": "Bundle-SymbolicName",
+					"nameRequiredPrefix": "org.glassfish.main.core.glassfish",
+					"versionFile": "glassfish/modules/glassfish.jar",
+					"versionKey": "Bundle-Version",
+					"versionRequiredPrefix": "6."
+				}
+			},
+			"downloads": {
+				"downloadProviderId": "glassfish6.x",
+				"glassfish-6.2.5": {
+					"name": "Glassfish 6.2.5",
+					"fullVersion": "6.2.5",
+					"downloadUrl": "https://download.eclipse.org/ee4j/glassfish/glassfish-6.2.5.zip",
+					"licenseUrl": "https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt",
+					"installationMethod": "archive",
+					"size": "118284616"
 				}
 			}
 		},
